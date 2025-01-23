@@ -1,0 +1,36 @@
+./build/ring_enq_deq
+EAL: Detected CPU lcores: 24
+EAL: Detected NUMA nodes: 2
+EAL: Detected shared linkage of DPDK
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+EAL: Selected IOVA mode 'PA'
+EAL: Probe PCI driver: mlx5_pci (15b3:101d) device: 0000:03:00.0 (socket 0)
+mlx5_common: Verbs device not found: 0000:03:00.0
+mlx5_common: Failed to initialize device context.
+EAL: Requested device 0000:03:00.0 cannot be used
+EAL: Probe PCI driver: mlx5_pci (15b3:101d) device: 0000:03:00.1 (socket 0)
+mlx5_common: Verbs device not found: 0000:03:00.1
+mlx5_common: Failed to initialize device context.
+EAL: Requested device 0000:03:00.1 cannot be used
+TELEMETRY: No legacy callbacks, legacy socket not created
+Enqueued object at address: 0x1002a4b00
+Enqueued object at address: 0x1002a4a40
+Enqueued object at address: 0x1002a4980
+Enqueued object at address: 0x1002a48c0
+Enqueued object at address: 0x1002a4800
+Enqueued object at address: 0x1002a4740
+Enqueued object at address: 0x1002a4680
+Enqueued object at address: 0x1002a45c0
+Enqueued object at address: 0x1002a4500
+Enqueued object at address: 0x1002a4440
+Dequeued object at address: 0x1002a4b00
+Dequeued object at address: 0x1002a4a40
+Dequeued object at address: 0x1002a4980
+Dequeued object at address: 0x1002a48c0
+Dequeued object at address: 0x1002a4800
+Dequeued object at address: 0x1002a4740
+Dequeued object at address: 0x1002a4680
+Dequeued object at address: 0x1002a45c0
+Dequeued object at address: 0x1002a4500
+Dequeued object at address: 0x1002a4440
+
