@@ -1,0 +1,13 @@
+./build/ring_enq_deq -l 0-2
+empty
+empty
+....
+..
+..
+full
+full
+full
+..
+..
+..
+
