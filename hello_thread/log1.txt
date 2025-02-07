@@ -1,0 +1,49 @@
+./build/hello_thread
+EAL: Detected CPU lcores: 24
+EAL: Detected NUMA nodes: 2
+EAL: Detected shared linkage of DPDK
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+EAL: Selected IOVA mode 'PA'
+EAL: eal_parse_sysfs_value(): cannot read sysfs value /sys/devices/system/node/node0/hugepages/hugepages-2048kB/free_hugepages
+EAL: Probe PCI driver: mlx5_pci (15b3:101d) device: 0000:03:00.0 (socket 0)
+EAL: Probe PCI driver: mlx5_pci (15b3:101d) device: 0000:03:00.1 (socket 0)
+TELEMETRY: No legacy callbacks, legacy socket not created
+ val 1 dpdk logical core 1 logical core index 1
+ val 2 dpdk logical core 2 logical core index 2
+ val 3 dpdk logical core 3 logical core index 3
+ val 4 dpdk logical core 4 logical core index 4
+ val 5 dpdk logical core 5 logical core index 5
+ val 6 dpdk logical core 6 logical core index 6
+ val 7 dpdk logical core 7 logical core index 7
+ val 8 dpdk logical core 8 logical core index 8
+ val 9 dpdk logical core 9 logical core index 9
+ val 10 dpdk logical core 10 logical core index 10
+ val 11 dpdk logical core 11 logical core index 11
+ val 12 dpdk logical core 12 logical core index 12
+ val 13 dpdk logical core 13 logical core index 13
+ val 14 dpdk logical core 14 logical core index 14
+ val 15 dpdk logical core 15 logical core index 15
+ val 16 dpdk logical core 16 logical core index 16
+ val 17 dpdk logical core 17 logical core index 17
+ val 18 dpdk logical core 18 logical core index 18
+ val 19 dpdk logical core 19 logical core index 19
+ val 20 dpdk logical core 20 logical core index 20
+ val 21 dpdk logical core 21 logical core index 21
+ val 22 dpdk logical core 22 logical core index 22
+ val 23 dpdk logical core 23 logical core index 23
+ val 0 dpdk logical core 0 logical core index 0
+ val 0 dpdk logical core 0 logical core index 0
+ val 1 dpdk logical core 1 logical core index 1
+ val 0 dpdk logical core 0 logical core index 0
+ val 2 dpdk logical core 2 logical core index 2
+ val 0 dpdk logical core 0 logical core index 0
+ val 1 dpdk logical core 1 logical core index 1
+ val 3 dpdk logical core 3 logical core index 3
+ val 0 dpdk logical core 0 logical core index 0
+ val 4 dpdk logical core 4 logical core index 4
+ val 0 dpdk logical core 0 logical core index 0
+ val 1 dpdk logical core 1 logical core index 1
+ val 5 dpdk logical core 5 logical core index 5
+ val 2 dpdk logical core 2 logical core index 2
+ val 0 dpdk logical core 0 logical core index 0
+

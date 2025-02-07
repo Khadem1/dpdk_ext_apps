@@ -1,0 +1,26 @@
+./build/hello_thread --lcores '(1-2)@3'
+EAL: Detected CPU lcores: 24
+EAL: Detected NUMA nodes: 2
+EAL: Detected shared linkage of DPDK
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+EAL: Selected IOVA mode 'PA'
+EAL: eal_parse_sysfs_value(): cannot read sysfs value /sys/devices/system/node/node0/hugepages/hugepages-2048kB/free_hugepages
+EAL: Probe PCI driver: mlx5_pci (15b3:101d) device: 0000:03:00.0 (socket 0)
+EAL: Probe PCI driver: mlx5_pci (15b3:101d) device: 0000:03:00.1 (socket 0)
+TELEMETRY: No legacy callbacks, legacy socket not created
+ val 2 dpdk logical core 2 logical core index 1
+ val 1 dpdk logical core 1 logical core index 0
+ val 1 dpdk logical core 1 logical core index 0
+ val 2 dpdk logical core 2 logical core index 1
+ val 1 dpdk logical core 1 logical core index 0
+ val 2 dpdk logical core 2 logical core index 1
+ val 1 dpdk logical core 1 logical core index 0
+ val 1 dpdk logical core 1 logical core index 0
+ val 2 dpdk logical core 2 logical core index 1
+ val 1 dpdk logical core 1 logical core index 0
+ val 2 dpdk logical core 2 logical core index 1
+ val 1 dpdk logical core 1 logical core index 0
+ val 1 dpdk logical core 1 logical core index 0
+ val 2 dpdk logical core 2 logical core index 1
+ val 1 dpdk logical core 1 logical core index 0
+
