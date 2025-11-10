@@ -123,7 +123,7 @@ int main(int argc, char **argv) {
 
     printf("Cleaning up flow rules...\n");
 
-    for (uint16_t i = 0; i < 1000; i++) {
+    for (uint16_t i = 0; i < 100000; i++) {
         if (flows[i])
             rte_flow_destroy(port_id, flows[i], &error);
     }
